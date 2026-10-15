@@ -1,0 +1,17 @@
+
+# Ignore the Python virtual environment.
+.venv/
+
+# Ignore Python cache files.
+__pycache__/
+*.pyc
+
+# Ignore the local SQLite database and temporary files.
+deployments.db
+deployments.db-journal
+deployments.db-wal
+deployments.db-shm
+
+# Ignore local environment variables and macOS metadata.
+.env
+.DS_Store
